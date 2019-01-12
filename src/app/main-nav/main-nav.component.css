@@ -1,0 +1,66 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+.time-text {
+  color: white;
+  margin-left: 30px;
+}
+
+.call-no, .mail-text {
+  color: white;
+}
+
+.mail-text {
+  float: right;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  background:#007b5eea;
+}
+
+.company {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  color: white;
+}
+
+mat-toolbar a {
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace
+}
+
+@media (min-width: 768px) {
+  .sidenav {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  mat-toolbar a {
+    display: none;
+  }
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+}
+
+/* team */
+

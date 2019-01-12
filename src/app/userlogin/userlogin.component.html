@@ -1,0 +1,37 @@
+<!-- <div class="userlogin">
+  <h3 style="text-align:center;font-family:sans-serif;margin-bottom:20px;color: rgb(148, 7, 25)"> <span> Anmelden</span>
+    <button class="notranslate" mat-icon-button color="primary" style="float: right;border:none" (click)="onNoClick()">
+      <mat-icon>cancel</mat-icon>
+    </button>
+  </h3>
+  <div class="example-form">
+          <div *ngIf="ErrorMessage">
+            <div class="error-notice">
+                  <div class="oaerror danger">
+                    <strong>Error</strong> - Das eingegebene Benutzer-ID/Passwort ist nicht korrekt
+                  </div>
+                </div>
+          </div>
+
+    <mat-form-field class="example-full-width">
+      <mat-icon matSuffix>email</mat-icon>
+      <input type="email" [pattern]="emailPattern" required matInput placeholder="E-Mail oder Benutzer-ID" [(ngModel)]="email" (keyup.enter)="login(email, password)">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input [type]="show ? 'text' : 'password'" matInput placeholder="Kennwort" required [(ngModel)]="password" (keyup.enter)="login(email, password)">
+      <mat-icon matSuffix (mouseenter) = "showHidePassword()" (mouseleave) = "showHidePassword()" style="cursor:pointer">visibility_off</mat-icon>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" class="loginbutton" (click)="login(email, password)" [disabled]="response">
+      <span style="font-size:17px;letter-spacing: 1px;">Anmelden</span>
+      <mat-icon class="notranslate" style="margin-left:20px" matSuffix>arrow_forward_ios</mat-icon>
+    </button>
+    <div style="margin-top:10px">
+      <button style="font-size:13px;letter-spacing: 1px;" mat-button (click)="register()"> Noch kein Kunde? Jetzt Kunde werden</button>
+      <button style="font-size:13px;letter-spacing: 1px;float: left;" mat-button (click)="forgotpwd()"> Kennwort vergessen?</button>
+    </div>
+
+  </div>
+</div>
+ -->

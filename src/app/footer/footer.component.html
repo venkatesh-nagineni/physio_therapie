@@ -1,0 +1,150 @@
+<div class="footersection">
+    <footer class="footer2">
+      <div class="footer">
+        <div class="customcontainer">
+          <div class="row">
+            <nav class="col-md-3 col-sm-6 col-xs-12">
+              <h3>Öffnungszeiten</h3>
+              <ul>
+                <li>
+                  <a href="#"> Montag - Donnerstag: 16:00 Uhr - 23:00 Uhr </a>
+                </li>
+                <li>
+                  <a href="#"> Freitag : 16:00 Uhr - 23:00 Uhr </a>
+                </li>
+                <li>
+                  <a href="#"> Samstag : 12:00 Uhr - 23:00 Uhr </a>
+                </li>
+                <li>
+                  <a href="#"> Sonntag und Feiertage: 12:00 Uhr - 23:00 Uhr </a>
+                </li>
+              </ul>
+            </nav>
+
+            <nav class="col-md-3 col-sm-6 col-xs-12">
+              <h3>Kontakt</h3>
+              <form>
+                <address style="color:#DDD">
+                  <h6>Pizza Express Rodgau</h6>
+                  <h6>Alter Weg 28</h6>
+                  <h6>D-63110 Rodgau</h6>
+                  <a href="tel:+496170961709">Tel: 06106 4075 </a> <br>
+                  <a href="fax:06106 63775">Fax: 06106 63775</a><br>
+                  <a href="mailto:express.rodgau@gmail.com">express.rodgau@gmail.com</a><br>
+<!--                   <a href="https://api.whatsapp.com/send?phone=+491755761387&text=Hello from Pizzaria Express Rodgau">Whats app <i class="fa fa-whatsapp"></i> </a>
+ -->                </address>
+              </form>
+            </nav>
+
+            <nav class="col-md-3 col-sm-6 col-xs-12">
+              <h3>Über Uns</h3>
+              <ul>
+                <li><a style="cursor:pointer" (click)="openImpressum(impressumTemplate)">Impressum</a></li>
+                <li><a style="cursor:pointer" (click)="agb(agbTemplate)">AGB</a></li>
+                <li><a style="cursor:pointer" (click)="datenscutz(datenschutzTemplate)">Datenschutz</a></li>
+                <li><a style="cursor:pointer" (click)="nutzungsbedingungen(nutzungsbedingungenTemplate)">Nutzungsbedingungen</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 ">
+              <div class="copyright-text">
+                <h6>Copyright © Pizza Express Rodgau 2018</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <ng-template #impressumTemplate>
+      <div class="modal-header">
+        <h4 class="modal-title pull-left">Impressum</h4>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="impressumRef.hide()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            Pizza Express Rodgau Lieferservice Pizzeria Rodgau
+            Inhaber und Diensteanbieter i.S. §5 TMG: Ejaz Ahmad Rana und Hasham Ahmad Rana Gbr
+            Alter-Weg 28
+            63110 Rodgau Jügesheim<br><br>
+
+            <form>
+              <address>
+                <span>Pizza Express Rodgau</span><br>
+                <span>Alter Weg 28</span><br>
+                <span>D-63110 Rodgau</span><br><br>
+                <a href="tel:+496170961709">Tel: 06106 4075 </a> <br>
+                <a href="fax:06106 63775">Fax: 06106 63775</a><br>
+                <a href="mailto:express.rodgau@gmail.com">express.rodgau@gmail.com</a><br>
+              </address>
+            </form>
+
+            Verantwortlich i.S. des §6 des Staatsvertrages über Mediendienste: Ejaz Ahmad Rana und Hasham Ahmad Rana Gbr<br><br>
+
+            Irrtümer & Änderungen vorbehalten.<br>
+            Verwendung und Veröffentlichung nur mit ausdrücklicher, schriftlicher Genehmigung.<br><br>
+
+            Umsatzsteuer-Identifikationsnummer:<br>
+            Handelsregisternummer:<br>
+            Firmensitz:<br>
+            Geschäftsführer:<br>
+            Aufsichtsbehörde: Gewerbeaufsichtsamt der Stadt Rodgau<br>
+            Online-Streitschlichtung:<br>
+            <p>An einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle nehmen wir nicht teil.
+                Die EU-Kommission stellt eine Internetplattform für die außergerichtliche
+                Online-Streitbeilegung ("OS-Plattform") zur Verfügung, die unter folgendem
+                Link ec.europa.eu/consumers/odr aufrufbar ist. Unsere E-Mail-Adresse finden Sie im Impressum.</p><br>
+
+            <p>Soweit die Webseite Verlinkungen zu anderen, externen Webseiten enthält unterliegen diese gelinkten
+            Webseiten der Verantwortung der jeweiligen Anbieter oder Betreiber. Zum Zeitpunkt der
+            Verknüpfung der externen Links waren keine rechtswidrigen Inhalte erkennbar.
+            Auf die aktuelle und/-oder künftige Gestaltung der verlinkten Seiten besteht keinen Einfluss.
+            Eine permanente inhaltliche Überprüfung der externen Links ist ohne konkrete Hinweise auf
+            Rechtsverstöße nicht zumutbar. Sollten Rechtsverstöße auf den verlinkten Seiten bekanntwerden,
+            so werden die betroffenen externen Links unverzüglich gelöscht.</p>
+      </div>
+    </ng-template>
+
+    <ng-template #agbTemplate>
+      <div class="modal-header">
+        <h4 class="modal-title pull-left">Allgemeine Geschäftsbedingungen des Lieferdienstes:</h4>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="agbRef.hide()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Es wurde keine Allgemeinen Geschäftsbedingungen vom Lieferservice hinterlegt, es gelten somit die gesetzlichen Bestimmungen.
+      </div>
+    </ng-template>
+
+    <ng-template #datenschutzTemplate>
+        <div class="modal-header">
+          <h4 class="modal-title pull-left">Datenschutzerklärung des Lieferdienstes:</h4>
+          <button type="button" class="close pull-right" aria-label="Close" (click)="datenschutzRef.hide()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            Es wurde keine Datenschutzerklärung vom Lieferservice hinterlegt, es gelten somit die gesetzlichen Bestimmungen.
+        </div>
+      </ng-template>
+
+      <ng-template #nutzungsbedingungenTemplate>
+          <div class="modal-header">
+            <h4 class="modal-title pull-left">Datenschutzerklärung des Lieferdienstes:</h4>
+            <button type="button" class="close pull-right" aria-label="Close" (click)="nutzungsbedingungenRef.hide()">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              Es wurde keine Datenschutzerklärung vom Lieferservice hinterlegt, es gelten somit die gesetzlichen Bestimmungen.
+          </div>
+        </ng-template>
