@@ -21,6 +21,7 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { TeamComponent } from './team/team.component';
 import { ServicesComponent } from './services/services.component';
+import { AppointmentComponent } from './appointment/appointment.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ServicesComponent } from './services/services.component';
     MainNavComponent,
     TeamComponent,
     ServicesComponent,
+    AppointmentComponent,
   ],
   imports: [
     BrowserModule,

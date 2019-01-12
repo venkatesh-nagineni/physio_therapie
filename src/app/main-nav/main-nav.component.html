@@ -53,12 +53,12 @@
       <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span class="company"><i class="fa fa-heartbeat"></i> Physio</span>
+      <a [routerLink]="['home']"><span class="company"><i class="fa fa-heartbeat"></i> Physio</span></a>
       <span class="spacer"></span>
-      <a mat-list-item href="#">Services</a>
-      <a mat-list-item href="#">Contact</a>
-      <a mat-list-item href="#">Book Appointment</a>
-      <a mat-list-item href="#">Login</a>
+      <a mat-list-item>Services</a>
+      <a mat-list-item>Contact</a>
+      <a mat-list-item [routerLink]="['appointmentBooking']">Book Appointment</a>
+      <a mat-list-item>Login</a>
     </mat-toolbar>
     <ng-content></ng-content>
   </mat-sidenav-content>
